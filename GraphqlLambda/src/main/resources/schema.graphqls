@@ -1,0 +1,32 @@
+type Query {
+    getCommentsOnPost(postId: String!): [Comment]
+    getNumberOfCommentsOnPost(postId: String!): Int
+    getCommentsByAuthor(author: String!): [Comment]
+    getPost(id: String!): Post
+    getPostsByAuthor(author: String!): [Post]
+}
+
+type Mutation {
+    createComment(postId: String!, author: String!, content: String!): Comment
+    upvoteComment(id: ID!): Comment
+    downvoteComment(id: ID!): Comment
+    createPost(author: String!, content: String!): Post
+    incrementViewCount(id: String!): Post
+}
+
+type Comment {
+    id: ID!
+    postId: String!
+    author: String!
+    content: String!
+    upvotes: Int
+    downvotes: Int
+}
+
+type Post {
+    id: ID!
+    author: String!
+    content: String!
+    views: Int
+    comments: [Comment]
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "id": "1",
+    "author": "Author1",
+    "content": "SAMPLE TEXT AUTHOR 1 SAMPLE TEXT AUTHOR 1 SAMPLE TEXT AUTHOR 1 SAMPLE TEXT AUTHOR 1 SAMPLE TEXT AUTHOR 1 SAMPLE TEXT AUTHOR 1",
+    "views": "100",
+    "comments": null
+  },
+  {
+    "id": "2",
+    "author": "Author2",
+    "content": "SAMPLE TEXT AUTHOR 2 SAMPLE TEXT AUTHOR 2 SAMPLE TEXT",
+    "views": "100",
+    "comments": null
+  },
+  {
+    "id": "3",
+    "author": "Author3",
+    "content": null,
+    "views": null,
+    "comments": null
+  },
+  {
+    "id": "4",
+    "author": "Author4",
+    "content": "SAMPLE TEXT AUTHOR 4 SAMPLE TEXT AUTHOR 4 SAMPLE TEXT AUTHOR 4 SAMPLE TEXT AUTHOR 4 SAMPLE TEXT AUTHOR 4 SAMPLE TEXT AUTHOR 4 SAMPLE TEXT AUTHOR 4 SAMPLE TEXT AUTHOR 4",
+    "views": "1000",
+    "comments": null
+  },
+  {
+    "id": "5",
+    "author": "Author5",
+    "content": "SAMPLE TEXT AUTHOR 5 SAMPLE TEXT AUTHOR 5 SAMPLE TEXT AUTHOR 5 SAMPLE TEXT AUTHOR 5 SAMPLE TEXT",
+    "views": "50",
+    "comments": null
+  }
+]
